@@ -1,0 +1,21 @@
+body {
+  background-color: #232323
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+}
+
+#container {
+  /* 0 margin on top and bottom and auto on left and right will make it same size on all sides */
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: white
+}
