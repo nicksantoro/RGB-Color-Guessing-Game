@@ -1,5 +1,7 @@
 # RGB-Color-Guessing-Game
 
+deployed site: http://the-rgb-guessing-game.surge.sh/
+
 Javascript, HTML5, CSS3
 
 Objective: Dom Manipulation
