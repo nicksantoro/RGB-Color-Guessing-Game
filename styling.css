@@ -1,5 +1,7 @@
 body {
-  background-color: #232323
+  background-color: #232323;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif
 }
 
 .square {
@@ -17,7 +19,14 @@ body {
 }
 
 h1 {
-  color: white
+  text-align: center;
+  line-height: 1.4;
+  color: black;
+  background-color: whitesmoke;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 20px 0;
 }
 
 /* span {
@@ -29,4 +38,12 @@ h1 {
   height: 30px;
   text-align: center;
   color: black;
+}
+
+.selected {
+  background-color: blue;
+}
+
+#colorDisplay {
+  font-size: 200%;
 }
