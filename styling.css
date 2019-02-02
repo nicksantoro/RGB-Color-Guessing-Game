@@ -45,7 +45,7 @@ h1 {
 }
 
 .selected {
-  background-color: blue;
+  background-color: none;
 }
 
 #colorDisplay {
