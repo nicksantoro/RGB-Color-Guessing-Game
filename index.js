@@ -37,6 +37,7 @@ let pickedColor = pickColor()
 let colorDisplay = document.getElementById("colorDisplay");
 let messageDisplay = document.getElementById("message");
 let headerColor = document.getElementById("header");
+let resetButton = document.getElementById("reset");
 
 colorDisplay.textContent = pickedColor;
 
@@ -59,6 +60,20 @@ for (let i = 0; i < squares.length; i++) {
     }
   })
 }
+
+resetButton.addEventListener("click", function () {
+  // genereate all new colors
+  colors = generateRandomColors(6)
+  // pick a new random color from array
+  pickedColor = pickColor()
+  // change color display to match picked color
+  colorDisplay.textContent = pickedColor;
+  // change colors of squares
+  for (let i = 0; i < squares.length; i++) {
+    squares[i].style.backgroundColor = colors[i];
+  }
+
+})
 
 
 
