@@ -104,11 +104,13 @@ resetButton.addEventListener("click", function () {
   pickedColor = pickColor()
   // change color display to match picked color
   colorDisplay.textContent = pickedColor;
+  this.textContent = "New Colors";
+  messageDisplay.textContent = "";
   // change colors of squares
   for (let i = 0; i < squares.length; i++) {
     squares[i].style.backgroundColor = colors[i];
   }
-  headerColor.style.backgroundColor = "whitesmoke";
+  headerColor.style.backgroundColor = "steelblue";
 })
 
 

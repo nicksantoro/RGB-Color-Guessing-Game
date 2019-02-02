@@ -25,8 +25,8 @@ body {
 h1 {
   text-align: center;
   line-height: 1.4;
-  color: black;
-  background-color: whitesmoke;
+  color: white;
+  background-color: steelblue;
   margin: 0;
   font-weight: normal;
   text-transform: uppercase;
@@ -67,6 +67,7 @@ button {
   letter-spacing: 1px;
   font-size: inherit;
   transition: all 0.3s;
+  outline: none;
   --webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
 }
